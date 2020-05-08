@@ -64,7 +64,7 @@ class SpiderTaptap():
 
 # client_id 为官网获取的AK， client_secret 为官网获取的SK
 def get_token():
-    host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=VLI50x0nLTG5dIbUoOdUhVTa&client_secret=ir1Gvc5KrXK3UKyw8LG4hj647ihMGBz1'
+    host = ''
     response = requests.get(host)
     rsjson = response.json()
     access_token = rsjson['access_token']
